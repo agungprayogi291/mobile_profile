@@ -13,6 +13,20 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text("Agungprayogi")
+        ),
+        body: Center(
+          child: Container(
+            color:Colors.lightBlue,
+            width:150,
+            height:100,
+            
+            child :Text(
+              "Nama : Agung Prayogi , umur: 19 th ",
+              textAlign: TextAlign.start,
+              style:TextStyle(color:Colors.white,fontSize: 14, fontWeight: FontWeight.bold),
+              maxLines: 3,
+            )
+          ) 
         )
       )
     );
