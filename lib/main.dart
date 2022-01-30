@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:ui';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Agungprayogi")
+          title: Text("Agungprayogi"),
+          leading:Icon(Icons.menu)
         ),
         body: Center(
           child: Container(
